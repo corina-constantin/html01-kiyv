@@ -13,3 +13,27 @@ p i {
   font-weight: bold;
   text-decoration: line-through;
 }
+
+h1{
+  text-decoration: underline;
+  color: red;
+}
+
+p {
+  color: grey;
+}
+
+h2 {
+  font-weight: normal;
+  text-shadow: 2px 2px 5px yellow;
+}
+
+h3 {
+  text-shadow: 0 3px 5px green;
+  text-decoration: underline dotted brown;
+}
+
+p b {
+  text-decoration: underline;
+  color: yellow;
+}
