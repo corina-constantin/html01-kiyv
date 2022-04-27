@@ -37,9 +37,8 @@ transform: translate(100px, 0) rotate(50deg);
 }
 
 .box-brown{
-  transform: skew(10deg,10deg) translate(-5px, -10px);
+  transform: skew(10deg,10deg) translate(-10px,-5px);
 }
-/* Nu inteleg de ce nu se inverzeste aici pixel tab-ul. Imi spune ca nu are valorile corecte pentru proprietatea transform */
 
 .box-yellow{
   transform:scale(1.2) rotate(-15deg);
