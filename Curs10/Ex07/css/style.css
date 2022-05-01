@@ -23,3 +23,27 @@
   background: red;
   margin-left: 3px;
 }
+
+.my-second-list a {
+  display: block;
+}
+
+.my-second-list a::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: pink;
+  border-radius: 50%;
+}
+
+.my-second-list a::after {
+  content: '';
+  background-color: blue;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  transform: rotate(45deg);
+  position: relative;
+  margin-left: 3px;
+}
