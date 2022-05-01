@@ -63,18 +63,23 @@
       </section>
       <!-- ./header-connect -->
       <section class="header-controls">
-
-        <form action="">
-          <button type="submit">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
-          <input
-            type="text"
-            name="search"
-            id="search"
-            placeholder="Search"
-          >
-        </form>
+        <section class="header-search">
+          <form action="">
+            <button
+              type="submit"
+              title="Submit"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Search"
+            >
+          </form>
+        </section>
+        <!-- ./header-search -->
 
         <ul>
           <li class="user-controls">
@@ -102,14 +107,8 @@
     </section>
     <!-- ./header-top -->
 
-    <section class="header-container">
-      <h1>MONO</h1>
-      <h1>CHROME</h1>
-    </section>
-    <!-- ./header-container -->
-
     <section class="header-bottom">
-      <nav class="menu">
+      <nav class="nav-primary">
         <ul>
           <li>
             <a
@@ -149,7 +148,7 @@
           </li>
         </ul>
       </nav>
-      <!-- ./menu -->
+      <!-- ./primary -->
     </section>
     <!-- ./header-bottom -->
   </header>
@@ -630,6 +629,12 @@
             title="exchange&returns"
           >exchange&returns</a>
         </li>
+      </ul>
+    </nav>
+    <!-- ./footer-nav -->
+
+    <section class="footer-nav">
+      <ul>
         <li>
           <a
             href=""
@@ -654,54 +659,65 @@
             title="advertising"
           >advertising</a>
         </li>
+      </ul>
+    </section>
+    <!-- ./footer-nav -->
+
+    <nav class="footer-newsletter">
+      <form action="">
+
+        <input
+          type="text"
+          name="newsletter"
+          id="newsletter"
+        >
+        <label for="newsletter">sign up for our newsletter</label>
+        <button
+          type="submit"
+          title="Submit"
+        >Submit</button>
+      </form>
+    </nav>
+    <!-- ./footer-newsletter -->
+
+    <nav class="footer-social">
+      <ul>
+        <li>
+          <a
+            href="http://"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Youtube"
+          >
+            <i class="fa-brands fa-youtube"></i></i></a>
+        </li>
+        <li>
+          <a
+            href="http://"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Twitter"
+          ><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a
+            href="http://"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Facebook"
+          ><i class="fa-brands fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a
+            href="http://"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Instagram"
+          ><i class="fa-brands fa-instagram"></i></a>
         </li>
       </ul>
     </nav>
-    <!-- ./footer-nav -->
-    <section class="footer-connect">
-      <nav class="footer-newsletter">
-        <form action="">
-          <p>sign up for our newsletter</p>
-          <input
-            type="text"
-            name="newsletter"
-            id="newsletter"
-          >
-          <button type="submit">SUBMIT</button>
-        </form>
-      </nav>
-      <!-- ./footer-newsletter -->
-      <nav class="footer-social">
-        <ul>
-          <li>
-            <a
-              href=""
-              title="Youtube"
-            ><i class="fa-brands fa-youtube"></i></i></a>
-          </li>
-          <li>
-            <a
-              href=""
-              title="Twitter"
-            ><i class="fa-brands fa-twitter"></i></a>
-          </li>
-          <li>
-            <a
-              href=""
-              title="Facebook"
-            ><i class="fa-brands fa-facebook-f"></i></a>
-          </li>
-          <li>
-            <a
-              href=""
-              title="Instagram"
-            ><i class="fa-brands fa-instagram"></i></a>
-          </li>
-        </ul>
-      </nav>
-      <!-- ./footer-social -->
-    </section>
-    <!-- ./footer-connect -->
+    <!-- ./footer-social -->
   </footer>
   <!-- ./footer -->
 </body>
