@@ -1,7 +1,115 @@
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('./../Fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
-    url('./../Fonts/PlayfairDisplay-Regular.woff') format('woff');
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+    url('../fonts/Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+    url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BlackItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+    url('../fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-ThinItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
+    url('../fonts/Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
+    url('../fonts/Roboto-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Julius Sans One';
+  src: url('../fonts/JuliusSansOne-Regular.woff2') format('woff2'),
+    url('../fonts/JuliusSansOne-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -9,8 +117,17 @@
 
 @font-face {
   font-family: 'Playfair Display';
-  src: url('./../Fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
-    url('./../Fonts/PlayfairDisplay-Italic.woff') format('woff');
+  src: url('./../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('./../fonts/PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./../fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+    url('./../fonts/PlayfairDisplay-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -168,37 +285,135 @@ a {
 }
 
 /* header */
-.header{
-  padding-top: 20px;
+.header {
   margin-top: 40;
   margin-bottom: 20px;
 }
 
-.header-connect{
+.header-connect {
   float: left;
 }
 
-.header-controls{
+.header-controls {
   float: right;
-}
-
-
-.header-bottom{
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
 }
 
 .header-connect li {
   display: inline-block;
 }
 
-.header-controls li{
+.header-controls li {
   display: inline-block;
 }
 
-.nav-primary li{
+.nav-primary li {
   display: inline-block;
+}
+
+.header-top {
+  background: url('./../images/banner.png') center;
+  background-size: cover;
+  height: 500;
+  margin: 20px 100px 0px 100px;
+  padding: 20px 350px 500px 350px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.header-connect li i[class*='fa-'] {
+  font-size: 20px;
+}
+
+.header-connect li:last-child {
+  font-size: 14px;
+}
+
+.header-connect li {
+  padding: 8px;
+}
+
+.header-controls li {
+  padding: 8px;
+  border: none;
+}
+
+.header-controls li i[class*='fa-']{
+  background-color: none;
+  font-size: 20px;
+  color: #2b2b2b;
+}
+
+.header-controls li i[class*='fa-'] {
+  color: #111111;
+}
+
+.nav-primary {
+  margin-bottom: 16px;
+}
+
+.nav-primary li a {
+  display: inherit;
+  padding: 8px 18px;
+  text-transform: uppercase;
+  margin: 0 4px;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 24px;
+  transition: color 0.2s linear, background-color 0.2s linear;
+}
+
+.header-bottom {
+  text-align: center;
+  background: #2b2b2b;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.header-bottom li a {
+  color: #e8e8e8;
+  text-transform: uppercase;
+}
+
+.nav-primary li a:hover {
+  color: #fff;
+  background-color: #ff6b6b;
 }
 
 /* end-header */
+
+/* footer */
+.footer {
+  background-color: #e8e8e8;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 50px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footer-inner ul {
+  display: inline-block;
+  margin-right: 32px;
+  vertical-align: center;
+}
+
+.footer-inner ul li{
+  display: block;
+  margin-bottom: 6px;
+}
+
+.footer-newsletter span{
+  color: #2B2B2B;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.footer-social i[class*='fa-']{
+  color: #2B2B2B;
+  font-size: 18px;
+  display: inline-block;
+}
+
+
+/* end-footer */
