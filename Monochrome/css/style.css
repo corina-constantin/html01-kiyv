@@ -314,10 +314,12 @@ a {
   background: url('./../images/banner.png') center;
   background-size: cover;
   height: 500;
-  margin: 20px 100px 0px 100px;
-  padding: 20px 350px 500px 350px;
   color: #ffffff;
   font-weight: 300;
+}
+
+.header-top-inner {
+  padding: 20px 200px 500px 200px;
 }
 
 .header-connect li i[class*='fa-'] {
@@ -337,7 +339,7 @@ a {
   border: none;
 }
 
-.header-controls li i[class*='fa-']{
+.header-controls li i[class*='fa-'] {
   background-color: none;
   font-size: 20px;
   color: #2b2b2b;
@@ -345,6 +347,21 @@ a {
 
 .header-controls li i[class*='fa-'] {
   color: #111111;
+  border: none;
+}
+
+.header-controls button{
+  border:none;
+  background: #FFFFFF;
+}
+
+.header-controls form{
+border: 1px solid #CCCCCC;
+background: #FFFFFF;
+}
+
+.header-controls input{
+  border: none;
 }
 
 .nav-primary {
@@ -358,15 +375,17 @@ a {
   margin: 0 4px;
   font-size: 20px;
   font-weight: 300;
-  border-radius: 24px;
   transition: color 0.2s linear, background-color 0.2s linear;
 }
 
 .header-bottom {
   text-align: center;
   background: #2b2b2b;
-  margin-left: 100px;
-  margin-right: 100px;
+}
+
+.nav-primary  ul{
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-bottom li a {
@@ -376,7 +395,7 @@ a {
 
 .nav-primary li a:hover {
   color: #fff;
-  background-color: #ff6b6b;
+  background-color: #CCCCCC;
 }
 
 /* end-header */
@@ -391,26 +410,39 @@ a {
   font-weight: 300;
 }
 
-.footer-inner ul {
+.footer-inner .footer-contact {
+  display: inline-block;
+  margin-right: 32px;
+  vertical-align: top;
+
+}
+
+.footer-inner .footer-nav {
   display: inline-block;
   margin-right: 32px;
   vertical-align: center;
 }
 
-.footer-inner ul li{
-  display: block;
-  margin-bottom: 6px;
+.footer-inner .footer-connect {
+  display: inline-block;
+  margin-right: 32px;
+  vertical-align: center;
 }
 
-.footer-newsletter span{
-  color: #2B2B2B;
+.footer-inner ul li {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.footer-newsletter span {
+  color: #2b2b2b;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 300;
 }
 
-.footer-social i[class*='fa-']{
-  color: #2B2B2B;
+.footer-social i[class*='fa-'] {
+  color: #2b2b2b;
   font-size: 18px;
   display: inline-block;
 }
